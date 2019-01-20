@@ -1,0 +1,14 @@
+@import 'variables';
+@import 'mixins';
+
+.cta-button{
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    font-family: 'Roboto Slab', Helvetica, Arial;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50px;
+    background: $red;
+    color: white;
+}

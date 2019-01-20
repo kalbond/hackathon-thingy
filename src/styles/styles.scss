@@ -1,0 +1,115 @@
+
+@import 'variables';
+@import 'mixins';
+@import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import 'flexbox-grid.scss';
+@import 'typography';
+@import 'fonts';
+@import 'helpers';
+@import 'components';
+
+body, html{
+    height: 100%;
+    margin: 0;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 100%;
+}
+
+main section{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    .section-wrapper{
+        position: relative;
+        width: 100%;
+        min-height: 300px;
+        padding: 50px;
+        @media (min-width: 961px){
+            width: 800px;
+            margin: 0 auto;
+        }
+        @media (min-width: 1200px){
+            width: 1000px;
+            margin: 0 auto;
+        }
+    }
+}
+
+header{
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid #eee;
+    background: white;
+}
+
+.header-wrapper{
+    width: 1100px;
+    height: 75px;
+    margin: 0 auto;
+}
+
+.header-wrapper nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav.topnav a{
+    font-family: 'Ashcan BB', Arial, Helvetica, sans-serif;
+    color: $orange !important;
+    padding-top: 21px;
+    font-size: 20px;
+    transition: 0.6s ease all;
+    &.logo{
+        width: 140px;
+        height: 140px;
+        background: url('./../images/logo.png') top center no-repeat;
+        background-size: contain;
+    }
+    &:hover{
+        cursor: pointer;
+        color: $red !important;
+    }
+}
+
+hr{
+    width: 100%;
+    background: #eee;
+}
+
+.bg-playful{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: url('./../images/background-element.png') repeat;
+}
+
+.bg-paper-plane-1{
+    position: absolute;
+    top: 0px;
+    left: -150px;
+    width: 200px;
+    height: 200px;
+    background: url('./../images/paper-plane-1.png') top left no-repeat;
+    background-size: contain;
+}
+.bg-paper-plane-2{
+    position: absolute;
+    bottom: 0px;
+    right: -150px;
+    width: 200px;
+    height: 200px;
+    background: url('./../images/paper-plane-2.png') top left no-repeat;
+    background-size: contain;
+}

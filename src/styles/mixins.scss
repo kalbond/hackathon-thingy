@@ -1,0 +1,23 @@
+$pad5: 5px;
+$pad10: 10px;
+$pad15: 15px;
+$pad20: 20px;
+
+//Padding and Margin *********************
+$maxPaddingMargin: 85;
+$i: 0;
+
+@while $i <= $maxPaddingMargin {
+    .p#{$i} { padding: #{$i}px; }
+    .pt#{$i} { padding-top: #{$i}px; }
+    .pr#{$i} { padding-right: #{$i}px; }
+    .pb#{$i} { padding-bottom: #{$i}px; }
+    .pl#{$i} { padding-left: #{$i}px; }
+    .m#{$i} { margin: #{$i}px; }
+    .mt#{$i} { margin-top: #{$i}px; }
+    .mr#{$i} { margin-right: #{$i}px; }
+    .mb#{$i} { margin-bottom: #{$i}px; }
+    .ml#{$i} { margin-left: #{$i}px; }
+    .margin-bottom#{$i} { margin-bottom: #{$i}px !important;}
+    $i: $i + 5;
+}

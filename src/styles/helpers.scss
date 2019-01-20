@@ -1,0 +1,67 @@
+@import 'variables';
+
+.text-center{ text-align: center; }
+.text-left  { text-align: left; }
+.text-right { text-align: right; }
+
+.text-white   { color: white; }
+.text-orange  { color: $orange; }
+.text-red     { color: $red; }
+.text-green   { color: $green; }
+.text-blue    { color: $blue; }
+.text-pastel  { color: $pastel; }
+.text-grey    { color: $grey-medium; }
+
+.bg-white   { background-color: white; }
+.bg-orange  { background-color: $orange; }
+.bg-red     { background-color: $red; }
+.bg-green   { background-color: $green; }
+.bg-blue    { background-color: $blue; }
+.bg-yellow  { background-color: $yellow; }
+.bg-pastel  { background-color: $pastel; }
+.bg-grey    { background-color: $grey-light; }
+
+.text-small     { font-size: 11px; }
+.text-regular   { font-size: 14px; }
+.text-medium    { font-size: 18px; }
+.text-large     { font-size: 22px; }
+
+.normal-text-shadow{ text-shadow: 1px 2px #eee; }
+.text-glow-yellow{ text-shadow: 0 0 20px $yellow; }
+
+//Padding and Margin
+.p0 { padding:0 !important; }
+.pt0 { padding-top:0 !important; }
+.pb0 { padding-bottom:0 !important; }
+.mt0 { margin-top:0 !important; }
+.m0 { margin:0 !important; }
+.mb0 { margin-bottom:0 !important; }
+.mt-2 { margin-top: -2px; }
+.mt-5 { margin-top: -5px; }
+.mt-10 { margin-top: -10px; }
+.mt-15 { margin-top: -15px; }
+.mt-20 { margin-top: -20px; }
+.mt-40 { margin-top: -40px; }
+.mt-50 { margin-top: -50px; }
+.ml-5 { margin-left: -5px; }
+.ml-10 { margin-left: -10px; }
+.mr0 {margin-right: 0 !important; }
+.mr10pe { margin-right: 10% !important; }
+.ml6pe { margin-left: 6% !important; }
+.mt80pe { margin-top: 80% !important; }
+.mt40pe { margin-top: 40% !important; }
+.mt20pe { margin-top: 20% !important; }
+.mt15pe { margin-top: 15% !important; }
+.ml-4pe { margin-left: -4% !important; }
+.ml-2pe { margin-left: -2% !important; }
+.ml-8pe { margin-left: -8% !important; }
+.ml-9pe { margin-left: -9% !important; }
+.ml-13pe { margin-left: -13% !important; }
+.ml-18pe { margin-left: -18% !important; }
+.ml-22pe { margin-left: -22% !important; }
+.mb30p {margin-bottom: 30px !important;}
+.mb8i {margin-bottom: 8px !important;}
+.mb15i {margin-bottom: 15px !important;}
+.mt15p { margin-top: 15px !important;}
+.mt10p { margin-top: 10px !important;}
+.mt2i { margin-top: 2px !important;}
