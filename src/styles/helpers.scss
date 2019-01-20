@@ -26,6 +26,10 @@
 .text-medium    { font-size: 18px; }
 .text-large     { font-size: 22px; }
 
+.uppercase      { text-transform: uppercase; }
+.lowercase      { text-transform: lowercase; }
+.case-normal    { text-transform: none !important; }
+
 .normal-text-shadow{ text-shadow: 1px 2px #eee; }
 .text-glow-yellow{ text-shadow: 0 0 20px $yellow; }
 

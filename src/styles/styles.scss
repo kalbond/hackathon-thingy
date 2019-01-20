@@ -113,3 +113,12 @@ hr{
     background: url('./../images/paper-plane-2.png') top left no-repeat;
     background-size: contain;
 }
+
+h1.bg-registration{
+    display: inline;
+    margin: 0 auto;
+    width: 540px;
+    height: 72px;
+    text-align: center;
+    background: url('./../images/registration-title.png') center center no-repeat;
+}

@@ -2,24 +2,27 @@
 
 h1, h2, h3, h4, h5, h6{
     font-family: 'ZCOOL QingKe HuangYou', cursive, 'Open Sans';
-    font-size: 32px;
+    font-size: 37px;
     color: white;
 }
+h1{
+    text-transform: uppercase;
+}
 h2{ 
-    font-size: 28px;
+    font-size: 32px;
 }
 h3{
-    font-size: 24px;
+    font-size: 28px;
 }
 h4{
-    font-size: 20px;
+    font-size: 24px;
 }
 h5{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
 }
 h6{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
 }
 
