@@ -101,6 +101,12 @@
                     </form>
                 </div>
             </section>
+            <section class="maps bg-pastel">
+                <div class="section-wrapper">
+                    <h1>Location & Contact</h1>
+                </div>
+                <div id="map"></div>
+            </section>
         </main>
         <footer>
             <div class="credits"><!-- <a href='https://www.freepik.com/free-vector/hand-drawn-business-icons_769576.htm'>Designed by Freepik</a>
@@ -112,6 +118,17 @@
     <!-- Scripts -->
     <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
     <script>
+    // Google Map
+    // Initialize and add the map
+    function initMap() {
+        // The location of Toronto
+        var toronto = {lat: 43.6476273, lng: -79.3925968};
+        // The map, centered at toronto
+        var map = new google.maps.Map(
+            document.getElementById('map'), {zoom: 18, center: toronto});
+        // The marker, positioned at toronto
+        var marker = new google.maps.Marker({position: toronto, map: map});
+    }
     // Initialize Firebase
     var config = {
         apiKey: "AIzaSyCTvDaLLPXtCx5r2WT87zlUhzPkrS207ts",
@@ -123,5 +140,6 @@
     };
     firebase.initializeApp(config);
     </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzXSiMEAa-F5ep34wRmdEpr8SGGmljnXM&callback=initMap"></script>
 </body>
 </html>
